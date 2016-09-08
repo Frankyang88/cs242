@@ -1,0 +1,6 @@
+
+	gcc -ansi -pedantic -W -Wall -O2 -g -c mylib.c
+	gcc -ansi -pedantic -W -Wall -O2 -g -c quick_sort.c
+
+	gcc -o quick_sort quick_sort.o mylib.o
+

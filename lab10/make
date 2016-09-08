@@ -1,0 +1,8 @@
+
+	gcc -ansi -pedantic -W -Wall -O2 -g -c mylib.c
+	gcc -ansi -pedantic -W -Wall -O2 -g -c array_sort.c
+
+	gcc -o array_sort array_sort.o mylib.o
+gcc -ansi -pedantic -W -Wall -O2 -g -c flexarray.c
+gcc -ansi -pedantic -W -Wall -O2 -g -c flex_main.c
+gcc -o flex_main flex_main.o mylib.o flexarray.o
