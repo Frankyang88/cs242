@@ -1,0 +1,6 @@
+
+	gcc -ansi -pedantic -W -Wall -O2 -g -lm -c graph.c
+	gcc -ansi -pedantic -W -Wall -O2 -g -lm -c main.c
+	gcc -ansi -pedantic -W -Wall -O2 -g -lm -c mylib.c
+	gcc -ansi -pedantic -W -Wall -O2 -g -lm -c queue.c
+	gcc -o graphmain  main.o graph.o mylib.o queue.o
